@@ -1,0 +1,44 @@
+{
+  "author": {
+    "email": "wtgtybhertgeghgtwtg@gmail.com",
+    "name": "Matthew Fernando Garcia"
+  },
+  "bin": {
+    "wtg": "bin.js"
+  },
+  "dependencies": {
+    "builtin-modules": "^2.0.0",
+    "file-exists": "^5.0.1",
+    "loud-rejection": "^1.6.0",
+    "read-pkg": "^3.0.0",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^4.0.0-beta.4",
+    "rollup-plugin-json": "^3.0.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "write": "^1.0.3",
+    "yargs": "^11.0.0"
+  },
+  "description": "Scripts I got tired of copypasting.",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "execa": "^0.10.0",
+    "semantic-release": "^15.4.1",
+    "semantic-release-monorepo": "^6.0.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [
+    "bin.js",
+    "src"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@wtg/scripts",
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-beta.46"
+  },
+  "repository": "wtgtybhertgeghgtwtg/scripts",
+  "scripts": {},
+  "version": "0.0.0-semantic-release"
+}
