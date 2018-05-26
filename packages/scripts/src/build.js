@@ -9,13 +9,14 @@ const nodeResolve = require('rollup-plugin-node-resolve');
 const write = require('write');
 
 async function build(args) {
+  const {input, skip} = args;
   const pkg = await readPkg();
   assert(
     typeof pkg.main === 'string',
     '"main" must be defined in "package.json".',
   );
 
-  if (args.skip && (await fileExists(pkg.main))) {
+  if (skip && (await fileExists(pkg.main))) {
     return;
   }
 
@@ -25,7 +26,7 @@ async function build(args) {
 
   const bundle = await rollup({
     external,
-    input: 'src/index.js',
+    input,
     plugins: [json(), babel(), nodeResolve()],
   });
 

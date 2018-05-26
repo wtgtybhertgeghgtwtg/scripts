@@ -7,11 +7,17 @@ require('yargs')
     'build',
     'Build the package.',
     yargs =>
-      yargs.option('skip', {
-        alias: 's',
-        default: false,
-        describe: 'Do not build if the file specified in "main" exists.',
-      }),
+      yargs
+        .option('input', {
+          alias: 'i',
+          default: 'src/index.js',
+          describe: 'The entry point of the bundle.',
+        })
+        .option('skip', {
+          alias: 's',
+          default: false,
+          describe: 'Do not build if the file specified in "main" exists.',
+        }),
     build,
   )
   .parse();
