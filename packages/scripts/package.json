@@ -7,7 +7,7 @@
     "wtg": "bin.js"
   },
   "dependencies": {
-    "builtin-modules": "^2.0.0",
+    "builtin-modules": "^3.0.0",
     "file-exists": "^5.0.1",
     "loud-rejection": "^1.6.0",
     "read-pkg": "^3.0.0",
