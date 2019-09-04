@@ -15,7 +15,7 @@
     "rollup-plugin-babel": "^4.0.0-beta.4",
     "rollup-plugin-json": "^3.0.0",
     "rollup-plugin-node-resolve": "^4.0.0",
-    "write": "^1.0.3",
+    "write": "^2.0.0",
     "yargs": "^13.0.0"
   },
   "description": "Scripts I got tired of copypasting.",
