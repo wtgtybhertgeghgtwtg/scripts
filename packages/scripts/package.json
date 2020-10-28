@@ -16,7 +16,7 @@
     "rollup-plugin-json": "^3.0.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "write": "^1.0.3",
-    "yargs": "^13.0.0"
+    "yargs": "^16.0.0"
   },
   "description": "Scripts I got tired of copypasting.",
   "devDependencies": {
