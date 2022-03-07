@@ -22,7 +22,7 @@
   "devDependencies": {
     "@babel/core": "7.9.0",
     "execa": "^1.0.0",
-    "semantic-release": "^15.4.1",
+    "semantic-release": "^19.0.0",
     "semantic-release-monorepo": "^7.0.0"
   },
   "engines": {
